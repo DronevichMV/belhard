@@ -1,1 +1,4 @@
-Режим вывода команд на экран (ECHO) включен.
+n = int(input("Enter last degree: "))
+
+
+
