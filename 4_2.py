@@ -7,4 +7,3 @@ for mnozh in spisok:
     slovar[mnozh] += 1
 print(slovar)
 
-
