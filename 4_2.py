@@ -1,1 +1,4 @@
-Режим вывода команд на экран (ECHO) включен.
+sent = input("Enter your sentence: ")
+sent = sent.replace(" ", "")
+
+
