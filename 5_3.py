@@ -1,4 +1,11 @@
 N = int(input("Enter last number: "))
-for i in range (2, N, 2):
-    print(i)
 
+count = 0
+for i in range (2, N+1, 2):
+    if count < 5:
+        print(i, end=" ")
+        count += 1
+    else:
+        print()
+        print(i, end=" ")
+        count = 1
